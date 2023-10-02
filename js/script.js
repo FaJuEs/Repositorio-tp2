@@ -23,7 +23,7 @@
   };
 
   const cargarProductos = (product) => {
-    //   const foto = product.imagen ?? "pawel-szvmanski-oUOxOSPbcJk-unsplash.jpg";
+   
     const productoHTML = `
     <div class="card">
         <h3>${product.nombre}</h3>
