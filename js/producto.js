@@ -37,6 +37,7 @@ destacado.forEach((product) => {
         </div>
         <div>
             <p class="price-product">$ ${product.precio}</p>
+            <p>${convertirAEstrellas(product.puntuacion)}</ p>
         </div>
         <div>
             <p> ${product.puntuacion}</p>
